@@ -7,12 +7,12 @@ export const nav = [
     text: "about",
     path: "/about",
   },
+  // {
+  //   text: "services",
+  //   path: "/services",
+  // },
   {
-    text: "services",
-    path: "/services",
-  },
-  {
-    text: "blog",
+    text: "properties",
     path: "/blog",
   },
   {
@@ -55,55 +55,55 @@ export const list = [
   {
     id: 1,
     cover: "../images/list/p-1.png",
-    name: "Red Carpet Real Estate",
-    location: "210 Zirak Road, Canada",
+    name: "Raheja Residency",
+    location: "210 Curry Road, Malad",
     category: "For Rent",
-    price: "$3,700",
+    price: "₹2,700",
     type: "Apartment",
   },
   {
     id: 2,
     cover: "../images/list/p-2.png",
-    name: "Fairmount Properties",
-    location: "5698 Zirak Road, NewYork",
+    name: "Laxmi Properties",
+    location: "5698 Zirak Road, Virar",
     category: "For Sale",
-    price: "$9,750",
-    type: "Condos",
+    price: "₹39,750",
+    type: "Mansion",
   },
   {
     id: 3,
     cover: "../images/list/p-7.png",
-    name: "The Real Estate Corner",
-    location: "5624 Mooker Market, USA",
+    name: "Sunmica Heights",
+    location: "5624 Chor Market, Kurla",
     category: "For Rent",
-    price: "$5,860",
+    price: "₹2,600",
     type: "Offices",
   },
   {
     id: 4,
     cover: "../images/list/p-4.png",
-    name: "Herringbone Realty",
-    location: "5621 Liverpool, London",
+    name: "Vasant Galaxy",
+    location: "5621 Jawahar Nagar, Goregaon",
     category: "For Sale",
-    price: "$7,540",
-    type: "Homes & Villas",
+    price: "₹27,540",
+    type: "Appartments",
   },
   {
     id: 5,
     cover: "../images/list/p-5.png",
     name: "Brick Lane Realty",
-    location: "210 Montreal Road, Canada",
+    location: "210 Montreal Road, Colaba",
     category: "For Rent",
-    price: "$4,850",
+    price: "₹4,850",
     type: "Commercial",
   },
   {
     id: 6,
     cover: "../images/list/p-6.png",
-    name: "Banyon Tree Realty",
-    location: "210 Zirak Road, Canada",
+    name: "Shiva Palace",
+    location: "Bandstand, Bandra",
     category: "For Sale",
-    price: "$2,742",
+    price: "₹72,742",
     type: "Apartment",
   },
 ]
@@ -132,31 +132,31 @@ export const awards = [
 export const location = [
   {
     id: 1,
-    name: "New Orleans, Louisiana",
-    Villas: "12 Villas",
+    name: "Kurla",
+    Villas: "0 Villas",
     Apartments: "10 Apartments",
     Offices: "07 Offices",
     cover: "./images/location/city-1.png",
   },
   {
     id: 2,
-    name: "Jerrsy, United State",
-    Villas: "12 Villas",
+    name: "Goregaon",
+    Villas: "0 Villas",
     Apartments: "10 Apartments",
     Offices: "07 Offices",
     cover: "./images/location/city-2.png",
   },
   {
     id: 3,
-    name: "Liverpool, London",
-    Villas: "12 Villas",
+    name: "Bandra",
+    Villas: "0 Villas",
     Apartments: " 10 Apartments",
     Offices: "07 Offices",
     cover: "./images/location/city-3.png",
   },
   {
     id: 4,
-    name: "NewYork, United States",
+    name: "Virar",
     Villas: "12 Villas",
     Apartments: " 10 Apartments",
     Offices: "07 Offices",
@@ -164,7 +164,7 @@ export const location = [
   },
   {
     id: 5,
-    name: "Montreal, Canada",
+    name: "Dahisar",
     Villas: "12 Villas",
     Apartments: " 10 Apartments",
     Offices: "07 Offices",
@@ -172,61 +172,18 @@ export const location = [
   },
   {
     id: 6,
-    name: "California, USA",
+    name: "Vasai",
     Villas: "12 Villas",
     Apartments: " 10 Apartments",
     Offices: "07 Offices",
     cover: "./images/location/city-6.png",
   },
 ]
-export const team = [
-  {
-    list: "50",
-    cover: "../images/customer/team-1.jpg",
-    address: "Liverpool, Canada",
-    name: "Sargam S. Singh",
-    icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>],
-  },
-  {
-    list: "70",
-    cover: "../images/customer/team-2.jpg",
-    address: "Montreal, Canada",
-    name: "Harijeet M. Siller",
-    icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>],
-  },
-  {
-    list: "80",
-    cover: "../images/customer/team-3.jpg",
-    address: "Denever, USA",
-    name: "Anna K. Young",
-    icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>],
-  },
-  {
-    list: "51",
-    cover: "../images/customer/team-4.jpg",
-    address: "2272 Briarwood Drive",
-    name: "Michael P. Grimaldo",
-    icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>],
-  },
-  {
-    list: "42",
-    cover: "../images/customer/team-5.jpg",
-    address: "2272 Briarwood Drive",
-    name: "Michael P. Grimaldo",
-    icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>],
-  },
-  {
-    list: "38",
-    cover: "../images/customer/team-5.jpg",
-    address: "Montreal, USA",
-    name: "Adam K. Jollio",
-    icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>],
-  },
-]
+
 export const price = [
   {
     plan: "Basic",
-    price: "29",
+    price: "2999",
     ptext: "per user, per month",
     list: [
       {
@@ -235,20 +192,20 @@ export const price = [
       },
       {
         icon: <i class='fa-solid fa-check'></i>,
-        text: "120GB CDN Bandwidth",
+        text: "No. of Owners you can contact",
       },
       {
         icon: <i class='fa-solid fa-check'></i>,
-        text: "5GB Cloud Storage",
+        text: "Unlock Properties reserved for Members",
       },
       { change: "color", icon: <i class='fa-solid fa-x'></i>, text: "Personal Help Support" },
-      { change: "color", icon: <i class='fa-solid fa-x'></i>, text: "Enterprise SLA" },
+      { change: "color", icon: <i class='fa-solid fa-x'></i>, text: "Packers and Movers" },
     ],
   },
   {
     best: "Best Value",
     plan: "Standard",
-    price: "49",
+    price: "4999",
     ptext: "per user, per month",
     list: [
       {
@@ -257,11 +214,11 @@ export const price = [
       },
       {
         icon: <i class='fa-solid fa-check'></i>,
-        text: "150GB CDN Bandwidth",
+        text: "No. of Owners you can contact",
       },
       {
         icon: <i class='fa-solid fa-check'></i>,
-        text: "10GB Cloud Storage",
+        text: "Unlock Properties reserved for Members",
       },
       {
         icon: <i class='fa-solid fa-check'></i>,
@@ -270,13 +227,13 @@ export const price = [
       {
         change: "color",
         icon: <i class='fa-solid fa-x'></i>,
-        text: "Enterprise SLA",
+        text: "Packers and Movers",
       },
     ],
   },
   {
     plan: "Platinum",
-    price: "79",
+    price: "7999",
     ptext: "2 user, per month",
     list: [
       {
@@ -285,11 +242,11 @@ export const price = [
       },
       {
         icon: <i class='fa-solid fa-check'></i>,
-        text: "200GB CDN Bandwidth",
+        text: "No. of Owners you can contact",
       },
       {
         icon: <i class='fa-solid fa-check'></i>,
-        text: "20GB Cloud Storage",
+        text: "Unlock Properties reserved for Members",
       },
       {
         icon: <i class='fa-solid fa-check'></i>,
@@ -297,7 +254,7 @@ export const price = [
       },
       {
         icon: <i class='fa-solid fa-check'></i>,
-        text: "Enterprise SLA",
+        text: "Packers and Movers",
       },
     ],
   },
